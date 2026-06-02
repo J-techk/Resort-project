@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .......Travellers stories........ */
+.sub-title {
+  margin: 50px 0 20px;
+  font-size: 2.2vw;
+  font-weight: 500;
+  color: #333;
+  padding-left: 20px;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 30px;
+}
+.images img {
+  width: 95%;
+  border-radius: 10px;
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.container div {
+  position: relative;
+  text-align: center;
+}
+.container p {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 26px;
+}
+.start-btn {
+  text-decoration: none;
+  background: #ff5361;
+  color: #fff;
+  width: 80%;
+  max-width: 350px;
+  display: block;
+  text-align: center;
+  margin: 60px auto;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 20px;
+}
