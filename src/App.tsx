@@ -1,9 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-
-// import Travellers from "./components/Travellers";
-import Loginpage from "./pages/Loginpage";
-import Landingpage from "./pages/Landingpage";
-import Register from "./components/Register";
+import Login from "./components/Login";
+import Exclusives from "./components/Exclusives/Exclusives";
 
 function App() {
   return (
@@ -15,6 +12,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/landingpage" element={<Landingpage />} />
       </Routes>
+      <Exclusives />
     </>
   );
 }
