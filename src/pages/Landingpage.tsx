@@ -6,7 +6,7 @@ import About from "../components/About";
 const Landingpage = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <Services />
       <Travellers />
       <About />
