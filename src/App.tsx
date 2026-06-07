@@ -1,6 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import Login from "./components/Login";
+// import Login from "./components/Login";
 import Exclusives from "./components/Exclusives/Exclusives";
+
+// import Landingpage from "./pages/Landingpage";
+import Navbar from "./components/Navbar";
+
 
 function App() {
   return (
@@ -8,10 +12,13 @@ function App() {
       {/* // <Travellers /> */}
 
       <Routes>
-        <Route path="/" element={<Loginpage />} />
+        {/* <Route path="/" element={<Loginpage />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/landingpage" element={<Landingpage />} />
+        <Route path="/landingpage" element={<Landingpage />} /> */}
+        {/* <Route path="/navbar" element={<Landingpage />} /> */}
+
       </Routes>
+      <Navbar/>
       <Exclusives />
     </>
   );
