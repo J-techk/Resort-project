@@ -1,18 +1,26 @@
+import { Route, Routes } from "react-router-dom";
+// import Login from "./components/Login";
+import Exclusives from "./components/Exclusives/Exclusives";
 
+// import Landingpage from "./pages/Landingpage";
 import Navbar from "./components/Navbar";
-import Exclusive from "./components/Exclusive";
-import Services from "./components/Services/Services";
-import Traveller from "./components/Travellers";
-import About from "./components/About";
+import Landingpage from "./pages/Landingpage";
+
 
 function App() {
   return (
     <>
-        <Navbar />
-      <Exclusive />
-      <Services />
-      <Traveller />
-      <About />
+      {/* // <Travellers /> */}
+
+      <Routes>
+        {/* <Route path="/" element={<Loginpage />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/landingpage" element={<Landingpage />} /> */}
+        {/* <Route path="/navbar" element={<Landingpage />} /> */}
+
+      </Routes>
+      <Navbar/>
+      <Exclusives />
     </>
   );
 }
