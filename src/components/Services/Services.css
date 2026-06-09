@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+/*  Call to action */
+.cta{
+  margin: 80px 10px;
+  background-image: linear-gradient(to right, #3f2321, transparent), url(../../assets/images/banner-2.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 5%;
+  color: #fff;
+}
+
+.cta h3{
+  font-size: 4vw;
+  line-height: 5.3vw;
+  font-weight: 500;
+}
+.cta p{
+  font-size: 18px;
+  margin: 10px 0;
+}
+.cta-btn{
+  background: #ff5361;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 700px) {
+  .cta{
+    padding: 15% 5%;
+
+  }
+  .cta h3{
+    font-size: 7vw;
+    line-height: 8vw;
+  }
+  .cta p{
+    font-size: 14px;
+  }
+  .cta-btn{
+    padding: 6px 15px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}
