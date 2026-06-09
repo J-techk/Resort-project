@@ -5,6 +5,7 @@ import Exclusives from "./components/Exclusives/Exclusives";
 // import Landingpage from "./pages/Landingpage";
 import Navbar from "./components/Navbar";
 import Landingpage from "./pages/Landingpage";
+import About from "./components/About/About";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       </Routes>
       <Navbar/>
       <Exclusives />
+      <About/>
     </>
   );
 }
