@@ -1,7 +1,8 @@
+import About from "../components/About/About";
 import Navbar from "../components/Navbar";
 import Services from "../components/Services/Services"
 import Travellers from "../components/Travellers";
-import About from "../components/About";
+
 
 const Landingpage = () => {
   return (
