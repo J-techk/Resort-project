@@ -1,11 +1,8 @@
 import { Route, Routes } from "react-router-dom";
-// import Login from "./components/Login";
-import Exclusives from "./components/Exclusives/Exclusives";
-
-// import Landingpage from "./pages/Landingpage";
-import Navbar from "./components/Navbar";
+import Loginpage from "./pages/Login";
+import Register from "./pages/Register";
 import Landingpage from "./pages/Landingpage";
-import About from "./components/About/About";
+
 
 
 function App() {
@@ -20,9 +17,7 @@ function App() {
        
 
       </Routes>
-      <Navbar/>
-      <Exclusives />
-      <About/>
+     
     </>
   );
 }
