@@ -11,13 +11,13 @@ import About from "./components/About/About";
 function App() {
   return (
     <>
-      {/* // <Travellers /> */}
+     
 
       <Routes>
-        {/* <Route path="/" element={<Loginpage />} />
+         <Route path="/" element={<Loginpage />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/landingpage" element={<Landingpage />} /> */}
-        {/* <Route path="/navbar" element={<Landingpage />} /> */}
+        <Route path="/landingpage" element={<Landingpage />} /> 
+       
 
       </Routes>
       <Navbar/>
