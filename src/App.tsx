@@ -1,18 +1,17 @@
 import { Route, Routes } from "react-router-dom";
-import Login from "./components/Login";
-import Exclusives from "./components/Exclusives/Exclusives";
+import Loginpage from "./components/Login";
+import Register from "./components/Register";
+
+import Landingpage from "./pages/Landingpage";
 
 function App() {
   return (
     <>
-      {/* // <Travellers /> */}
-
       <Routes>
         <Route path="/" element={<Loginpage />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/landingpage" element={<Landingpage />} />
+        <Route path="/Landingpage" element={<Landingpage />} />
       </Routes>
-      <Exclusives />
     </>
   );
 }
